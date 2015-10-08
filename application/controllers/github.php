@@ -7,7 +7,7 @@ class github extends CI_Controller{
 	}
 	
 	function index(){
-		$datos['titulo'] = 'Issues Github';
+		$datos['titulo'] = 'Github';
 		
 		$this->load->view('header',$datos);
 		$this->load->view('github');
